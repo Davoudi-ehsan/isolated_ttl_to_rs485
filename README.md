@@ -1,4 +1,4 @@
-# Isolated TTL to RS485 convertor - SCHEMATIC and PCB
+# Isolated TTL to RS485 converter - SCHEMATIC and PCB
 RS485 is a most used wired communication for industrial purposes. In many cases we need a solution to isolated or internal circuit from RS bus. To this aim I put a simple and cheep circuit using optocouplers to isolate TTL side from RS bus. Also because the power of circuit supplied by RS bus, it is a good solution to use in low power or battery devices connecting to RS485 bus.  
   
   On the other hand, in many usage we have just a TX and RX for serial port and there is no extra pin to control transmission direction. So this circuit work appropriately in this limitation.  
