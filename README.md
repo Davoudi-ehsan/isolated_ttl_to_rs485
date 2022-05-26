@@ -3,18 +3,22 @@ RS485 is a most used wired communication for industrial purposes. In many cases 
   
   On the other hand, in many usage we have just a TX and RX for serial port and there is no extra pin to control transmission direction. So this circuit work appropriately in this limitation.  
   
-The PCB designed in 1 layer and components used in this circuit are followed in below:  
-- Cap&emsp;&emsp;&emsp;&emsp;&emsp;100nF&emsp;&emsp;1206&emsp;&emsp;&emsp;1
-- TantalCap&emsp;&emsp; 10uF-16v&emsp;caseB&emsp;&emsp; 1
-- TantalCap&emsp;&emsp; 10uF-25v&emsp;caseB&emsp;&emsp; 1
-- TVS&emsp;&emsp;&emsp;&emsp;&emsp;SMBJ12A&emsp;&emsp;&emsp;&emsp;&emsp; 2
-- Res&emsp;&emsp;&emsp;&emsp;&emsp;10&emsp;&emsp;&emsp;&emsp;1206&emsp;&emsp;&emsp;2
-- Res&emsp;&emsp;&emsp;&emsp;&emsp;100&emsp;&emsp;&emsp;&emsp;1206&emsp;&emsp;2
-- Res&emsp;&emsp;&emsp;&emsp;&emsp;1k&emsp;&emsp;&emsp;&emsp;1206&emsp;&emsp;&emsp;2
-- Res&emsp;&emsp;&emsp;&emsp;&emsp;10k&emsp;&emsp;&emsp;&emsp;1206&emsp;&emsp;2
-- Regulator&emsp;&emsp; HT7550&emsp;&emsp;SOT-89&emsp;1
-- Optocoupler&emsp;6N136&emsp;&emsp;DIP-8&emsp;&emsp;2
-- Zener_diode&emsp;18v&emsp;&emsp;&emsp;miniMelf&emsp;1  
+The PCB designed in 1 layer and components used in this circuit are followed in below:   
+
+| # | Component | Value | Footprint | Qty |
+| --- | --- | --- | --- | --- |
+| 1 | Cap | 100nF | 1206 | 1 |
+| 2 | Tantal_Cap | 10uF 25v | CaseB | 1 |
+| 3 | Tantal_Cap | 10uF 16v | CaseB | 1 |
+| 4 | TVS_Diode | SMBJ12A | DO-214AA | 2 |
+| 5 | Res | 10 | 1206 | 2 |
+| 6 | Res | 100 | 1206 | 2 |
+| 7 | Res | 1k | 1206 | 2 |
+| 8 | Res | 10k | 1206 | 2 |
+| 9 | LDO_Regulator | HT7550 | SOT-89 | 1 |
+| 10 | Fast_Optocoupler | 6N136 | DIP-8 | 2 |
+| 11 | Zener_Diode | 18v | miniMelf | 1 |
+| 12 | Terminal |  |  | 1 |
 
 # PCB
 ![SCH](https://user-images.githubusercontent.com/50070107/170229342-8c6d5eee-4557-4498-86ea-c550a7db20b3.jpg)
